@@ -8,7 +8,7 @@
     width: 718px;
     background-color: #ccc;
 }
-
+/*Header*/
 .head {
     background-image: url(../images/bg1.jpg);
     width: 718px;
@@ -40,6 +40,7 @@
     max-width: 100%;
     padding: 5px;
 }
+/*Home content page*/
 .content {
     width: 450px;
     height: 525px;
@@ -71,5 +72,48 @@
     padding: 15px;
     background-color: #ccc;
 }
+.news  h2,
+.container .info h2 {
+    color: #0051ff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333;
+}
+.news h4 {
+    color: #ffa500;
+    margin-top: 15px;
+}
+.news span{
+    color: #0051ff;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+.clear {
+    clear: both;
+}
+/*aboutus page content*/
+.container .info {
+    padding: 15px;
+}
+.container .info p {
+    margin-bottom: 15px;
+}
+.container .info .gallery {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.container .info .gallery img {
+    width: 300px;
+}
+/*footer*/
+.footer {
+    text-align: center;
+    padding: 10px  20px;
+    border-top: 1px solid #333;
+    font-size: 13px;
+}
+
+
 
 
